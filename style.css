@@ -127,14 +127,13 @@ li a:hover {
   position: relative;
   text-align: center;
 }
+
 .hr-line {
   position: absolute;
   top: 50%;
   left: 0;
   width: 100%;
-  border: none;
-  height: 1px;
-  background-color: black;
+  border: 1px solid #1f1f1f;
 }
 
 .section-title-text-gray {
@@ -149,14 +148,15 @@ li a:hover {
 }
 
 .section-title-text-white {
-  font-size: 3rem;
-  font-weight: 100;
+  font-size: 36px;
+  font-weight: 400;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -100%);
   background-color: #ffffff;
-  padding: 0 10px;
+  padding: 0px 25px;
+  line-height: 43.45px;
 }
 
 .about-details {
@@ -182,6 +182,105 @@ li a:hover {
 }
 /*-------- style for about section end ----------------------- */
 
+/*-------- style for Experience section start ----------------------- */
+.job-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.job-data-container {
+  border-right: 1px solid black;
+  flex: 2 1 0%;
+  padding-top: 30px;
+  margin: 10px 0px;
+}
+
+.job-data {
+  padding-right: 15px;
+  margin: auto;
+}
+
+.job-data h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 5px 0px;
+  line-height: 29.05px;
+  color: #1f1f1f;
+}
+
+.job-data h5 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 19.36px;
+  color: #1f1f1f;
+}
+
+.job-data p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 23.8px;
+  color: #1f1f1f;
+}
+
+.job-details {
+  flex: 7 1 0%;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+
+.job-details li {
+  margin-bottom: 20px;
+}
+
+.job-data-container2 {
+  border-left: 1px solid black;
+  flex: 2 1 0%;
+  padding-top: 30px;
+  margin: 20px 0px;
+}
+
+.job-data2 {
+  padding-left: 15px;
+  margin: auto;
+}
+
+.job-data2 h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 5px 0px;
+  line-height: 29.05px;
+  color: #1f1f1f;
+}
+
+.job-data2 h5 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 19.36px;
+  color: #1f1f1f;
+}
+
+.job-data2 p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 23.8px;
+  color: #1f1f1f;
+}
+
+.job-details2 {
+  flex: 7 1 0%;
+  margin-right: 15px;
+}
+
+.job-details2 li {
+  margin-bottom: 20px;
+}
+/*-------- style for Experience section end ----------------------- */
 /* .container {
   max-width: 1000px;
   margin: 0 auto;
