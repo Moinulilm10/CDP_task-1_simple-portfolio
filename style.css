@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/*-------- style for Navbar section-----------------------  */
+.portfolio-navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.logo-container {
+  padding: 7px 30px 10px 10px;
+  margin: 12px 0px;
+  border: 1px solid #1f1f1f;
+}
+
+.nav-links {
+  display: inline-block;
+}
+
+.nav-link-list {
+  list-style-type: none;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #1f1f1f;
+  background-color: rgb(223, 223, 223);
+  border-radius: 3px;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.resume-btn,
+.hire-btn,
+.msg-btn {
+  height: 35px;
+  width: 81px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin: 0px 5px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link-list li {
+  margin-right: 20px;
+}
+
+.nav-buttons button:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+/*-------- style for Navbar section end ----------------------- */
+
+/*-------- style for Banner section start ----------------------- */
+.banner-section {
+  padding: 300px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-title {
+  font-size: 72px;
+  font-weight: 400;
+  display: block;
+  line-height: 79.2px;
+  color: #1f1f1f;
+}
+
+.banner-caption {
+  display: block;
+  font-size: 24px;
+  line-height: 29.05px;
+  font-weight: 300;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+.arrow-sign {
+  margin-top: 40px;
+}
+/*-------- style for Banner section end ----------------------- */
+
+/*-------- style for about section start ----------------------- */
+.about-container,
+.projects-container {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.about,
+.experience,
+.projects,
+.contact {
+  width: 1200px;
+  padding: 150px 0px;
+  padding-top: 100px;
+  margin: 0px auto;
+}
+
+.about-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: #c4c4c4;
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
+}
+.hr-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+
+.section-title-text-gray {
+  font-size: 3rem;
+  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background-color: #f2f2f2;
+  padding: 0 10px;
+}
+
+.section-title-text-white {
+  font-size: 3rem;
+  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background-color: #ffffff;
+  padding: 0 10px;
+}
+
+.about-details {
+  display: flex;
+  padding-top: 80px;
+  gap: 50px;
+}
+
+.about-text {
+  flex: 2 1 0%;
+}
+
+.about-text-content {
+  text-align: justify;
+  font-size: 16px;
+  padding-right: 25px;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+
+.about-img-section {
+  flex: 1 1 0%;
+}
+/*-------- style for about section end ----------------------- */
+
+/* .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 73px;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 286px;
+}
+
+.half-width {
+  width: 30%;
+  margin: 0 26px;
+  border: 1px solid #1f1f1f;
+}
+
+.contact-title {
+  /* text-align: center; */
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43.57px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 36px;
+}
+
+.contact-description {
+  text-align: center;
+}
+
+.contact-description p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-button {
+  padding: 8px 10px 8px 10px;
+  width: 133px;
+  height: 35px;
+  border: 1px solid #c4c4c7;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.contact-button button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #1f1f1f;
+  background-color: #ffff;
+  border: 0px;
+  padding-left: 14px;
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 23.8px;
+  font-weight: 400;
+}
