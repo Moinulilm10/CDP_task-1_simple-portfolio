@@ -9,7 +9,32 @@ body {
   display: flex;
   justify-content: space-between;
   width: 1200px;
-  margin: 0px auto;
+  margin: 22px auto;
+}
+
+.responsive-menu-icon {
+  margin-top: 16px;
+}
+
+.responsive-menu {
+  display: none;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.responsive-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.responsive-menu-list li {
+  margin-bottom: 10px;
+}
+
+.close-icon {
+  display: none;
+  cursor: pointer;
 }
 
 .logo-container {
@@ -517,4 +542,35 @@ footer p {
   font-size: 14px;
   line-height: 23.8px;
   font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .banner-section {
+    padding: 200px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-title {
+    font-size: 36px; /* Decrease font size for tablets */
+  }
+
+  .banner-caption {
+    font-size: 16px; /* Decrease font size for tablets */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .banner-section {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-title {
+    font-size: 28px; /* Decrease font size for mobile */
+  }
+
+  .banner-caption {
+    font-size: 14px; /* Decrease font size for mobile */
+  }
 }
