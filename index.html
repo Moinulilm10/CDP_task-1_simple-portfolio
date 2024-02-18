@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="./index.js"></script>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/77c945046c.js" crossorigin="anonymous"></script>
+
     <title>Personal Portfolio</title>
 </head>
 
@@ -36,21 +42,13 @@
                 </svg>
             </div> -->
         </nav>
-        <!-- responsive perpose -->
-        <!-- <div class="responsive-menu">
-            <ul class="responsive-menu-list">
-                <li><a href="#about">about</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-            <div class="close-icon" onclick="toggleMenu()">
-                &times;
-            </div>
-        </div> -->
         <!-- Navbar section end  -->
 
     </header>
+
+    <button onclick="topFunction()" id="upBtn" title="Go to top">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
 
     <main>
 
@@ -60,7 +58,8 @@
                 <h1 class="banner-title">Hi, I'm Moinul Islam</h1>
                 <h4 class="banner-caption">I design and build things.</h4>
                 <div class="center arrow-sign">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 448 512">
+                    <svg onclick="bottomFunction()" id="down-arrow" xmlns="http://www.w3.org/2000/svg" height="30"
+                        width="30" viewBox="0 0 448 512">
                         <path
                             d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z"
                             stroke-width="2" />
@@ -376,6 +375,9 @@
                 </div>
                 <div class="contact-button"><button title="" type="submit">Write Message</button></div>
             </div>
+            <div>
+                <h1>Contact me form</h1>
+            </div>
             <div class="contact-icon">
                 <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -396,6 +398,7 @@
             </div>
 
         </div>
+
         <!-- contact section  end -->
 
     </main>
@@ -404,6 +407,8 @@
             <p>&copy; Moinul Islam - 2023</p>
         </div>
     </footer>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
