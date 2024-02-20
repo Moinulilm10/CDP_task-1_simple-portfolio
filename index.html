@@ -22,7 +22,7 @@
             <div class="logo-container">
                 <div>J</div>
             </div>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
                 <ul class="nav-link-list">
                     <li><a href="#about">about</a></li>
                     <li><a href="#experience">experience</a></li>
@@ -36,13 +36,10 @@
                 </button>
                 <button class="hire-btn">Hire Me</button>
             </div>
-            <!-- <div class="responsive-menu-icon">
-                <svg width="36" height="24" viewBox="0 0 36 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="6" y1="12.5" x2="36" y2="12.5" stroke="#1F1F1F" />
-                    <line x1="12" y1="24.5" x2="36" y2="24.5" stroke="#1F1F1F" />
-                    <line y1="0.5" x2="36" y2="0.5" stroke="#1F1F1F" />
-                </svg>
-            </div> -->
+            <div class="hamburger" id="">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
         </nav>
         <!-- Navbar section end  -->
     </header>
@@ -379,6 +376,7 @@
 
 
             <!-- contact form  -->
+
             <div class="contact-form">
                 <div class="contact-form-content">
                     <h1 class="contact-heading-text">contact form</h1>
@@ -386,15 +384,14 @@
                         <form>
                             <fieldset>
                                 <!-- <legend><span class="number">1</span> Candidate Info</legend> -->
-                                <input type="text" name="field1" placeholder="Your Name *">
-                                <input type="email" name="field2" placeholder="Your Email *">
+                                <input type="text" name="field1" placeholder="Your Name *" required>
+                                <input type="email" name="field2" placeholder="Your Email *" required>
                                 <textarea type="text" name="field3" placeholder="About yourself"></textarea>
                             </fieldset>
                             <input type="submit" value="Apply" />
                         </form>
                     </div>
                 </div>
-
             </div>
             <!-- contact form  -->
 

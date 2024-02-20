@@ -31,3 +31,28 @@ function bottomFunction() {
     behavior: "smooth",
   });
 }
+
+// Get the contact button element
+var contactButton = document.querySelector(".contact-button");
+// Get the contact form element
+var contactForm = document.querySelector(".contact-form");
+
+contactButton.addEventListener("click", function () {
+  contactForm.style.display = "block";
+  contactButton.style.display = "none";
+});
+
+// responsive purpose
+const hamburger = document.getElementById("openHam");
+const navLinks = document.getElementById("navLinks");
+const closeHam = document.getElementById("closeHam");
+
+// Toggle navigation links when hamburger menu is clicked
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+// Hide navigation links when close icon is clicked
+closeHam.addEventListener("click", () => {
+  navLinks.classList.remove("active");
+});
