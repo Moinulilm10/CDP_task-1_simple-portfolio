@@ -48,10 +48,14 @@ body {
   display: inline-block;
 }
 
+
+
 .nav-link-list {
   list-style-type: none;
   font-size: 1.2rem;
   display: flex;
+  gap: 32px;
+
 }
 
 li a {
@@ -61,11 +65,19 @@ li a {
 
 li a:hover {
   color: #1f1f1f;
-  background-color: rgb(223, 223, 223);
-  border-radius: 3px;
-  padding: 10px;
   text-decoration: none;
   cursor: pointer;
+}
+
+.nav-link-list li {
+  border-radius: 3px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+
+}
+
+.nav-link-list li:hover {
+  background-color: rgb(184, 180, 180);
 }
 
 .resume-btn,
@@ -91,9 +103,6 @@ li a:hover {
   justify-content: center;
 }
 
-.nav-link-list li {
-  margin-right: 20px;
-}
 
 .nav-buttons button:hover {
   background-color: rgb(223, 223, 223);
