@@ -32,14 +32,27 @@ function bottomFunction() {
   });
 }
 
-// Get the contact button element
 var contactButton = document.querySelector(".contact-button");
-// Get the contact form element
 var contactForm = document.querySelector(".contact-form");
+const styleContactButton = document.getElementById("contact-button");
 
 contactButton.addEventListener("click", function () {
-  contactForm.style.display = "block";
-  contactButton.style.display = "none";
+  // contactForm.style.display = "block";
+  // contactButton.style.display = "none";
+
+  if (
+    contactForm.style.display === "none" ||
+    contactForm.style.display === ""
+  ) {
+    contactForm.style.display = "block";
+    contactButton.textContent = "Close";
+    styleContactButton.style.paddingLeft = "20px";
+  } else {
+    contactForm.style.display = "none";
+    contactButton.textContent = "Write Message";
+    styleContactButton.style.paddingLeft = "10px";
+    styleContactButton.style.paddingLeft = "20px";
+  }
 });
 
 // responsive purpose

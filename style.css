@@ -261,6 +261,33 @@ li a:hover {
   flex: 1 1 0%;
 }
 
+@media only screen and (max-width: 600px) {
+  .about-container {
+    width: 100%;
+  }
+
+  .section-title-text-heading {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #1f1f1f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background-color: #f2f2f2;
+    padding: 0 25px;
+  }
+
+  .hr-line {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #1f1f1f;
+  }
+}
+
 /*-------- style for about section end ----------------------- */
 
 /*-------- style for Experience section start ----------------------- */
@@ -545,6 +572,10 @@ li a:hover {
   line-height: 43.57px;
 }
 
+.form-close-icon {
+  color: #1F1F1F;
+}
+
 .contact-content {
   display: flex;
   flex-direction: column;
@@ -562,12 +593,12 @@ li a:hover {
 }
 
 .contact-button {
-  padding: 8px 10px 8px 10px;
+  padding: 14px 14px 17px 11px;
   width: 133px;
-  height: 35px;
   border: 1px solid #c4c4c7;
   border-radius: 5px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .contact-button button {
@@ -632,6 +663,7 @@ footer p {
   padding: 25px 40px 10px 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin-left: 20.2rem;
+  margin-top: -20px;
 }
 
 .contact-heading-text {
